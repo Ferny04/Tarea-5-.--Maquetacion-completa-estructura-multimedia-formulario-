@@ -1,0 +1,314 @@
+body {
+    background: #f9f1f1;
+    margin: 0;
+    font-family: Helvetica;
+}
+.envoltura-pagina {
+    width: 1500px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 0 12px rgba(0,0,0,0.07);
+}
+.encabezado-sitio {
+    padding: 0;
+    border-bottom: 2px solid #f9f1f1;
+}
+.zona-superior-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0 8px 0;
+}
+.identidad-marca {
+    display: flex;
+    align-items: center;
+}
+.identidad-marca img {
+    height: 100px;
+}
+.redes-sociales a {
+    margin-left: 12px;
+}
+.redes-sociales img {
+    width: 28px;
+    height: 28px;
+}
+.barra-navegacion {
+    background: #fff;
+    width: 1500px;
+    margin: 0 auto;
+    border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
+}
+.lista-navegacion {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    box-sizing: border-box;
+    border: none;
+}
+.lista-navegacion a {
+    flex: 1;
+    text-align: center;
+    padding: 12px 0;
+    color: #222;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+.lista-navegacion a.item-borde:first-child {
+    border-left: 2px solid #222;
+}
+.lista-navegacion a.item-borde:last-child {
+    border-right: 2px solid #222;
+}
+.lista-navegacion a:hover {
+    background: #f9f1f1;
+}
+.seccion-principal-banner {
+    position: relative;
+    width: 1500px;
+    left: 800px;
+    right: 800px;
+    margin-left: -800px;
+    margin-right: -800px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagen-fondo-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1500px;
+    height: 400px;
+    object-fit: cover;
+    z-index: 1;
+}
+.info-superpuesta-banner {
+    position: relative;
+    z-index: 2;
+    width: 1500px;
+    text-align: center;
+    color: #fff;
+}
+.info-superpuesta-banner h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+.info-superpuesta-banner p {
+    font-size: 18px;
+    margin-bottom: 28px;
+    font-weight: 400;
+}
+.grupo-botones-banner {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+.boton-accion-1, .boton-accion-2 {
+    background: #ff3281;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.boton-accion-2 {
+    background: #222;
+    border: 2px solid #ff3281;
+}
+.boton-accion-1:hover, .boton-accion-2:hover {
+    opacity: 0.85;
+}
+.seccion-servicios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0 18px 0;
+}
+.info-servicios {
+    flex: 2;
+    padding-left: 48px;
+}
+.info-servicios h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #222;
+}
+.info-servicios p {
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 0;
+}
+.visual-servicios {
+    flex: 1;
+    text-align: right;
+    padding-right: 48px;
+}
+.visual-servicios img {
+    width: 505px;
+    block-size: auto;
+    height: auto;
+}
+.seccion-equipo {
+    background: #fff9f1;
+    padding: 32px 0 32px 0;
+    border-bottom: 2px solid #f9f1f1;
+}
+.seccion-equipo h2 {
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #222;
+}
+.contenido-equipo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.visual-equipo img {
+    width : 600px;
+    block-size: auto;
+    border-radius: 8px;
+}
+.lista-puestos {
+    flex: 2;
+}
+.lista-puestos h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #222;
+}
+.lista-puestos p {
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 18px;
+}
+.seccion-info-final {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 38px 0 38px 0;
+    gap: 32px;
+}
+.columna-noticias, .columna-video {
+    flex: 1;
+    padding: 0 48px;
+}
+.columna-noticias h2, .columna-video h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    color: #222;
+}
+.columna-noticias p {
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 8px;
+}
+.texto-destacado-rosa {
+    color: #ff3281;
+    font-weight: bold;
+}
+.texto-normal-oscuro {
+    color: #222;
+    font-weight: normal;
+}
+.columna-noticias .telefono {
+    color: #ff3281;
+    font-weight: bold;
+}
+.columna-noticias .correo {
+    color: #ff3281;
+    font-weight: bold;
+}
+.formulario-contacto {
+    margin-top: 18px;
+    border: 2px solid #ff3281;
+    padding: 16px;
+    border-radius: 6px;
+    background: #fff;
+    max-width: 500px;
+}
+.formulario-contacto label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #222;
+}
+.formulario-contacto input[type="email"] {
+    width: 470px;
+    padding: 8px;
+    border: 1px solid #222;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.formulario-contacto button {
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.formulario-contacto button:hover {
+    background: #ff3281;
+}
+#log-errores-form {
+    display: block;
+    margin-top: 8px;
+    font-size: 15px;
+}
+.columna-video .contenedor-video-yt {
+    margin-top: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.footer-sitio {
+    background: #fff9f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 48px;
+}
+.logo-footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.logo-footer img {
+    height: 120px;
+}
+.info-autor-footer {
+    color: black;
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+}
+.barra-color-arriba,
+.barra-color-abajo {
+    width: 1500px;
+    height: 8px;
+    background: #ff3281;
+    margin: 0;
+    padding: 0;
+}

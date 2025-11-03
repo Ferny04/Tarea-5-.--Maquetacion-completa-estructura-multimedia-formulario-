@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400"> <title>Spa Salon</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="envoltura-pagina">
+        <div class="barra-color-arriba"></div> <header class="encabezado-sitio">
+            <div class="zona-superior-header">
+                <div class="identidad-marca">
+                    <img src="imagenes/logocabecera.jpg" alt="Spa Salon">
+                </div>
+                <div class="redes-sociales">
+                    <a href="#"><img src="imagenes/icono_facebook.jpg" alt="Facebook"></a>
+                    <a href="#"><img src="imagenes/icono_instagram.jpg" alt="Instagram"></a>
+                    <a href="#"><img src="imagenes/icono_twitter.jpg" alt="Twitter"></a>
+                </div>
+            </div>
+            <div class="barra-navegacion">
+                <nav class="lista-navegacion">
+                    <a href="#seccion-productos" class="item-borde">GALERIA</a>
+                    <a href="#seccion-ofertas">PRECIOS</a>
+                    <a href="#seccion-contacto">CONTACTANOS</a>
+                    <a href="#seccion-personal" class="item-borde">EQUIPO</a>
+                </nav>
+            </div>
+        </header>
+        <section id="seccion-ofertas" class="seccion-principal-banner">
+            <img src="imagenes/fondopiedras.jpg" alt="Promociones" class="imagen-fondo-banner">
+            <div class="info-superpuesta-banner">
+                <h1>PROMOCIONES DE MARZO</h1>
+                <p>Se acerca la epoca de playa y por eso preparamos estas dos promociones ideales para ti.</p>
+                <div class="grupo-botones-banner">
+                    <a href="#seccion-contacto" class="boton-accion-1">Solicitar Promoción</a>
+                    <a href="#seccion-contacto" class="boton-accion-2">ver Video</a>
+                </div>
+            </div>
+        </section>
+        <section id="seccion-productos" class="seccion-servicios">
+            <div class="info-servicios">
+                <h2>Los productos Science of Beauty</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit voluptatum incidunt aut sed, vitae quas vel
+                    consequatur dolorum ullam neque assumenda totam. At expedita
+                    id minus voluptatem laudantium laboriosam! Voluptates molestias
+                    soluta dicta cumque nostrum quasi quia totam sint minima. Officiis
+                    non consequuntur molestias libero at, asperiores vero nam minima.</p>
+            </div>
+            <div class="visual-servicios">
+                <img src="imagenes/fotovelas.jpg" alt="Productos">
+            </div>
+        </section>
+        <section id="seccion-personal" class="seccion-equipo">
+            <h2>Buscamos talento para integrarlos a nuestro equipo</h2>
+            <div class="contenido-equipo">
+                <div class="visual-equipo">
+                    <img src="imagenes/fotoaromatizante.jpg" alt="Equipo">
+                </div>
+                <div class="lista-puestos">
+                    <h3>Puesto de trabajo para Recepcionista</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repudiandae optio sunt provident perferendis reiciendis
+                        expedita, aliquid molestias accusamus, quod vero mayores
+                        commodi deserunt pariatur, illum distinctio. Sit sunt magnam
+                        aut.</p>
+                    <h3>Puesto de trabajo para Masajista</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repudiandae optio sunt provident perferendis reiciendis
+                        expedita, aliquid molestias accusamus, quod vero mayores
+                        commodi deserunt pariatur, illum distinctio. Sit sunt magnam
+                        aut.</p>
+                    <h3>Puesto de trabajo para Nutriologo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repudiandae optio sunt provident perferendis reiciendis
+                        expedita, aliquid molestias accusamus, quod vero mayores
+                        commodi deserunt pariatur, illum distinctio. Sit sunt magnam
+                        aut.</p>
+                </div>
+            </div>
+        </section>
+        <section id="seccion-contacto" class="seccion-info-final">
+            <div class="columna-noticias">
+                <h2>Recibe noticias y promociones de SPA SALON</h2>
+                <p>Un lugar para consentirte de pies a cabeza<br>Servicio de salón estética y Spa personalizado</p>
+                <p><span class="texto-destacado-rosa">TELEFONO:</span> <span class="texto-normal-oscuro">999 420 8871</span></p>
+                <p><span class="texto-destacado-rosa">CORREO:</span> <span class="texto-normal-oscuro">info@spasalon.com</span></p>
+                <form id="form-newsletter" class="formulario-contacto">
+                    <label for="campo-email">Tu dirección de correo electrónico</label>
+                    <input type="email" id="campo-email" placeholder="tunombre@example.com" required>
+                    <button type="button" id="btn-suscribir">Enviar</button>
+                    <span id="log-errores-form"></span>
+                </form>
+            </div>
+            <div class="columna-video">
+                <h2>Nuestras Instalaciones</h2>
+                <div class="contenedor-video-yt">
+                    <iframe width="100%" height="325" src="https://www.youtube.com/embed/w4qaODLR_Xg"
+                    title="SPA RECEPTION INTERIOR DESIGN - SPA HOA PHAM" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-sitio">
+            <div class="logo-footer">
+                <img src="imagenes/logo_spa.png" alt="Spa Salon">
+            </div>
+            <div class="info-autor-footer">
+                Fernando Enrique Sabido Farfan<br>
+                Programación Web<br>
+                7SA
+            </div>
+        </footer>
+        <div class="barra-color-abajo"></div> </div>
+
+    <script type="text/javascript">
+        $("#btn-suscribir").click(function(){
+            if ($("#campo-email").val() == "") {
+                alert("El campo correo es obligatorio");
+                $("#campo-email").focus();
+                return false;
+            }
+            var correo = $("#campo-email").val();
+            var gmailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+            if (!gmailRegex.test(correo)) {
+                alert("Por favor ingresa un correo Gmail válido.");
+                $("#campo-email").focus();
+                return false;
+            }
+            $("#form-newsletter")[0].submit();
+            alert("Correo enviado correctamente");
+        });
+    </script>
+</body>
+</html>
